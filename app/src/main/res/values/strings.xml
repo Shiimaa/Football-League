@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Football League</string>
+
+    <string name="competition_details_start_time">Start At :</string>
+    <string name="competition_details_end_time">End At :</string>
+    <string name="competition_details_winner">Winner Team :</string>
+    <string name="competition_details_teams">Teams</string>
+
+    <string name="team_details_venue">Venue : </string>
+    <string name="team_details_founded">Founded At : </string>
+    <string name="team_details_coach">Coach : </string>
+    <string name="team_details_players">Squad</string>
+    <string name="player_name">Name : </string>
+    <string name="player_position">Position : </string>
+    <string name="player_nationality">Nationality : </string>
+</resources>

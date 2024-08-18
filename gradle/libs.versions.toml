@@ -1,0 +1,50 @@
+[versions]
+agp = "8.5.2"
+kotlin = "1.9.0"
+kapt = "2.0.10"
+coreKtx = "1.13.1"
+appcompat = "1.7.0"
+roomVersion = "2.6.1"
+retrofitVersion = "2.9.0"
+retrofitLoggingVersion = "4.9.0"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+lifecycleRuntimeKtx = "2.6.1"
+material = "1.10.0"
+activity = "1.9.1"
+constraintlayout = "2.1.4"
+navigationFragmentKtx = "2.7.7"
+navigationUiKtx = "2.7.7"
+glideVersion = "4.12.0"
+daggerVersion = "2.46.1"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-app-compat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "roomVersion" }
+androidx-room = { group = "androidx.room", name = "room-ktx", version.ref = "roomVersion" }
+androidx-room-paging = { group = "androidx.room", name = "room-paging", version.ref = "roomVersion" }
+androidx-retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofitVersion" }
+androidx-retrofit-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofitVersion" }
+androidx-retrofit-logging = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "retrofitLoggingVersion" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
+androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationUiKtx" }
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glideVersion" }
+dagger = { group = "com.google.dagger", name = "dagger", version.ref = "daggerVersion" }
+dagger-complier = { group = "com.google.dagger", name = "dagger-compiler", version.ref = "daggerVersion" }
+
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kapt" }
+
